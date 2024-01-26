@@ -1,6 +1,6 @@
 # Netflix User Pattern Mining
 
-The project was done as part of the CSC 522 coursework. [Detailed project report link](https://github.com/shrutid02/netflix_data_mining/files/14067948/CSC_522_Final_Report.pdf).
+The project was done as part of the NCSU's CSC 522. [Detailed project report link](https://github.com/shrutid02/netflix_data_mining/files/14067948/CSC_522_Final_Report.pdf).
 
 ## 💡 Project Overview
 The project revolves around using the Netflix prize dataset to glean insights about users and their ratings. 
@@ -25,7 +25,7 @@ To include the time factor in K-medoids, we need to modify the distance metric f
 
 ## 📊 Results
 
-Km-medoids vs K-means SSE (Sum of Squared error)
+K-medoids vs K-means SSE comparison(Sum of Squared error)
 ![Image 26-01-24 at 1 01 PM](https://github.com/shrutid02/netflix_data_mining/assets/42238433/4b00f939-2576-4af4-b41f-11cadaf2fe3e)
 
 We notice that the error for K-medoids surpasses that of K-means with an increasing number of clusters. A similar trend was observed for another evaluation metric- **silhouette scores** for different cluster sizes. Consequently, we observe that introducing a time-based penalty produces inferior results compared to clustering users based solely on ratings. We also tried **tuning the weight(w)** of the time penalty in the custom distance calculations and even at **w=0.1, K-Means performed better** which further supports our observation. The intention behind adding a time-based penalty was to account for evolving movie interests, but if it increases the error in clustering, solely relying on user ratings would be the favorable clustering method for the Netflix prize data set.
