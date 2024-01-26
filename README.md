@@ -1,9 +1,10 @@
 # Netflix User Pattern Mining
 
-The project was done as part of the CSC 522 coursework. Detailed project report link.
+The project was done as part of the CSC 522 coursework. [Final project report link](https://github.com/shrutid02/netflix_data_mining/files/14067948/CSC_522_Final_Report.pdf).
 
 ## 💡 Project Overview
 The project revolves around using the Netflix prize dataset to glean insights about users and their ratings. 
+
 
 One approach is to use clustering algorithms to group movies based on their rating profiles and cluster users based on their rating behaviors. Clustering algorithms such as K-means, K-medoids, co-clustering, and others were used throughout the years in the Netflix data set competition. Clustering users based on movie ratings could enhance Netflix’s recommendation system for more personalized content suggestions. 
 
