@@ -1,6 +1,6 @@
 # Netflix User Pattern Mining
 
-The project was done as part of the CSC 522 coursework. [Final project report link](https://github.com/shrutid02/netflix_data_mining/files/14067948/CSC_522_Final_Report.pdf).
+The project was done as part of the CSC 522 coursework. [Detailed project report link](https://github.com/shrutid02/netflix_data_mining/files/14067948/CSC_522_Final_Report.pdf).
 
 ## 💡 Project Overview
 The project revolves around using the Netflix prize dataset to glean insights about users and their ratings. 
